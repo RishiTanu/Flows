@@ -71,4 +71,11 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //testing libraries flows streamly easy
+    testImplementation(libs.turbine)
+    //gives lot better testing assertions
+    testImplementation(libs.truth)
+    testImplementation ("com.google.truth:truth:1.1.3")
+    testImplementation(libs.kotlinx.coroutines.test)
 }
